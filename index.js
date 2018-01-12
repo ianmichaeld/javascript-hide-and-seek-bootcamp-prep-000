@@ -20,7 +20,11 @@ function deepestChild(){
   
   while(chld){
     node = chld;
-    chld = chld.children[0]
+    chld = chld.children[0];
+  }
+  
+  return chld;
+}
     
   }
 }
